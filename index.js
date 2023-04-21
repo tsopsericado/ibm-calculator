@@ -9,18 +9,18 @@ button.addEventListener("click", () => {
     weight_status = false;
 
   if (height === "" || isNaN(height) || height <= 0) {
-    document.getElementById("height_error").innerHTML =
+    document.getElementById("height-error").innerHTML =
       "Please provide a valid height";
   } else {
-    document.getElementById("height_error").innerHTML = "";
+    document.getElementById("height-error").innerHTML = "";
     height_status = true;
   }
 
   if (weight === "" || isNaN(weight) || weight <= 0) {
-    document.getElementById("weight_error").innerHTML =
+    document.getElementById("weight-error").innerHTML =
       "Please provide a valid weight";
   } else {
-    document.getElementById("weight_error").innerHTML = "";
+    document.getElementById("weight-error").innerHTML = "";
     weight_status = true;
   }
 
